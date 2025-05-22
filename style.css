@@ -1,0 +1,28 @@
+/* .sidebar {
+    width: 100px;
+    height: 100vh;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+.open .sidebar {
+    display: block;
+} */
+
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    background-color: black;
+    top: 0;
+    right: 0;
+    position: fixed;
+    display: none;
+}
+
+.open .sidebar {
+    display: block;
+}
+

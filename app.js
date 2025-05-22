@@ -269,3 +269,27 @@
 //     })
 
 // console.log(users)
+
+// change content/ html
+// document.querySelector('h1').innerHTML += " ASAP Frontend";
+
+// //change css
+// document.querySelector('h1').style.color = "red";
+
+// function changeButtonToGreen() {
+//     console.log("change button to Green!")
+//     document.querySelector('button').style.backgroundColor = "green";
+// }
+
+// function toggleSidebar() {
+//     console.log("function sidebar ran");
+//     document.querySelector('body').classList.toggle("open");
+// }
+
+// toggle is .add 
+//toggle is .remove
+
+function toggleSidebar() {
+    console.log("function sidebar")
+    document.querySelector('body').classList.toggle("open")
+}
